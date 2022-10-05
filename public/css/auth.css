@@ -1,0 +1,17 @@
+.login-form {
+  width: 20rem;
+  max-width: 90%;
+  margin: auto;
+  display: block;
+}
+
+.login_error {
+  margin: auto;
+  background-color: crimson;
+  color: white;
+  border: 1px;
+  border-radius: 6px;
+  width: 25%;
+  text-align: center;
+  padding: 0.5em 0;
+}
