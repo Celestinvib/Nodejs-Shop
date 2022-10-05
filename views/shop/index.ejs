@@ -25,6 +25,9 @@
                             <a href="/products/<%= product._id %>" class="btn">Details</a>
                             <% if (isAuthenticated) { %>
                                 <%- include('../includes/add-to-cart.ejs', {product: product}) %>
+                            <% } else { %>
+                                
+                            <a class="<%= path === '/login' ? 'active' : '' %>" href="/login"><button class="btn" type="submit">Add to Cart</button></a>
                             <% } %>
                         </div>
                     </article>
