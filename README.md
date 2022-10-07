@@ -4,9 +4,12 @@
 
 The best books of the web!<br>
 
-Project using [NodeJs](https://nodejs.org/en/about/) version 16.15.1 &  deployed in <a href="https://www.heroku.com/home"> heroku</a>.
+Project built with [NodeJs](https://nodejs.org/en/about/) version 16.15.1 &  deployed in <a href="https://www.heroku.com/home"> heroku</a>.
+Uses an external noSQL database in MongoDb.
 
 ## ⚙Features 
+* MVC structure
+* Server-Side Rendered Views 
 * Basic CRUD + Personalized functions
 * Fake Pay System (Stripe) 
 * Mail system (Sendgrid)
